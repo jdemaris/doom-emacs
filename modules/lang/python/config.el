@@ -130,6 +130,6 @@ environment variables."
 ;; Evil integration
 ;;
 
-(when (featurep! :feature evil +everywhere)
-  (add-hook! '(anaconda-mode-hook nose-mode-hook)
-    #'evil-normalize-keymaps))
+;;(when (featurep! :feature evil +everywhere)
+;;  (add-hook! '(anaconda-mode-hook nose-mode-hook)
+;;    #'evil-normalize-keymaps))

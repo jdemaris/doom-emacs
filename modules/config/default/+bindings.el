@@ -680,6 +680,7 @@
         :desc "Find other file"         :n  "o" #'projectile-find-other-file
         :desc "Switch project"          :n  "p" #'projectile-switch-project
         :desc "Recent project files"    :n  "r" #'projectile-recentf
+        :desc "New known project"       :n  "n" #'projectile-add-known-project
         :desc "List project tasks"      :n  "t" #'+ivy/tasks
         :desc "Invalidate cache"        :n  "x" #'projectile-invalidate-cache)
 
